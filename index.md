@@ -13,7 +13,7 @@ The idea would be to create an API that would receive a single pdf file and retu
       - Use a slightly more dynamic approach to locate a page number
       - Use object detection (likely most time consuming to implement)
           - will work the best across all vendors
-- Use the vendor and page number for each page to create one or more documents
+- Use the **vendor** and **page number** for each page to create one or more documents
   - Extract the Date (Bill date or Statement Date)
     - Options
         - Assume fixed layout (easiest)
@@ -28,7 +28,7 @@ The idea would be to create an API that would receive a single pdf file and retu
             - will work the best across all vendors
 
 ## Part 2
-This part would involve integrating Part 1 into the existing as well as determining the architecture for Part 1. Should it be an API or would a Queue be more appropriate?
+This part would involve integrating Part 1 into the existing system as well as determining the architecture for Part 1. Should it be an API or would a Queue be more appropriate?
 
 ## My Plan
 My plan would be to start small so that it would be farily quick to implement basic sorting from start to finish. I'm thinking of starting with about 20 vendors composed of bank statements and credit cards. This would involve the following steps:
